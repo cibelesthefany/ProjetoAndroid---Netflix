@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">ProjetoAndroid - Netflix</string>
-    <string name="test_commit">Olá</string>
+    <string name="test_activity">Olá, esta é uma activity</string>
 </resources>
