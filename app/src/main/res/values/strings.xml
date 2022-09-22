@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">ProjetoAndroid - Netflix</string>
-    <string name="test_activity">Olá, esta é uma activity</string>
+    <string name="title">Cadê meu filme?</string>
+    <string name="era_do_gelo">A Era Do Gelo</string>
 </resources>
