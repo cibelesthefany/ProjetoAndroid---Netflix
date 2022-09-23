@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">ProjetoAndroid - Netflix</string>
-    <string name="title">Cadê meu filme?</string>
+    <string name="title">Lista de filmes</string>
     <string name="era_do_gelo">A Era Do Gelo</string>
 </resources>
