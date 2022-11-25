@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">ProjetoAndroid - Netflix</string>
-    <string name="title">Lista de filmes</string>
-    <string name="era_do_gelo">A Era Do Gelo</string>
+    <string name="cruella">Cruella</string>
+    <string name="descriptionThemeCruella">Crime/Comédia dramática - 2021</string>
+    <string name="durationCruella">2h 14m</string>
+
+    <string name="theOffice">The Office</string>
+    <string name="descriptionThemeTheOffice">Sitcom - 2005</string>
+    <string name="durationTheOfice">9 Temporadas</string>
 </resources>

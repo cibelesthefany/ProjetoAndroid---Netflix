@@ -3,40 +3,117 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <TextView
-        android:id="@+id/textViewTest"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="50dp"
-        android:text="@string/title"
-        android:textStyle="bold"
+    <View
+        android:id="@+id/cruellaImage"
+        android:layout_width="86dp"
+        android:layout_height="129dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="258dp"
+        android:background="@drawable/Cruela"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="146dp"
-        android:layout_height="171dp"
-        android:layout_marginTop="20dp"
-        android:src="@drawable/a_era_do_gelo_um"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTest" />
-
     <TextView
-        android:id="@+id/era_do_gelo"
+        android:id="@+id/cruellaTitle"
+        style="@style/titleFilm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/era_do_gelo"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/textViewTest"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="67dp"
+        android:text="@string/cruella"
+        app:layout_constraintStart_toEndOf="@+id/cruellaImage"
+        app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:id="@+id/descriptionThemeCruella"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center_vertical"
+        android:text="@string/descriptionThemeCruella"
+        style="@style/descriptionTheme"
+        app:layout_constraintStart_toEndOf="@id/cruellaImage"
+        app:layout_constraintTop_toBottomOf="@+id/cruellaTitle" />
+
+    <TextView
+        android:id="@+id/durationCruella"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        android:gravity="center_vertical"
+        android:text="@string/durationCruella"
+        style="@style/duration"
+        app:layout_constraintStart_toEndOf="@+id/cruellaImage"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionThemeCruella" />
+
+    <View
+        android:id="@+id/theOfficeImage"
+        android:layout_width="86dp"
+        android:layout_height="129dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="258dp"
+        android:background="@drawable/theOffice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cruellaImage" />
+
+    <TextView
+        android:id="@+id/theOfficeTitle"
+        style="@style/titleFilm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="208dp"
+        android:text="@string/theOffice"
+        app:layout_constraintStart_toEndOf="@+id/theOfficeImage"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/descriptionThemeTheOffice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="7dp"
+        android:gravity="center_vertical"
+        android:text="@string/descriptionThemeTheOffice"
+        style="@style/descriptionTheme"
+        app:layout_constraintStart_toEndOf="@id/theOfficeImage"
+        app:layout_constraintTop_toBottomOf="@+id/theOfficeTitle" />
+
+    <TextView
+        android:id="@+id/durationTheOffice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        android:gravity="center_vertical"
+        android:text="@string/durationTheOfice"
+        style="@style/duration"
+        app:layout_constraintStart_toEndOf="@+id/cruellaImage"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionThemeTheOffice" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
